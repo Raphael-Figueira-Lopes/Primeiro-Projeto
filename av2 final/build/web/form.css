@@ -1,0 +1,31 @@
+@charset "UTF-8";
+form{
+   font-family: 'Oswald', sans-serif;
+ 
+}
+input, textarea{
+ font-family: sans-serif;
+ font-weight: normal;
+ font-size:13pt ;
+}
+input:hover, textarea:hover{
+background: #dddd;
+}
+legend{
+  color: aqua;
+  font-family: sans-serif;
+ font-weight: bold;
+ font-size: 20pt;
+}
+fieldset {
+  border-color: green;
+  margin: 25px
+}
+fieldset#gene {
+  width: 170px;
+}
+.demo-form button {
+  width: 170px;
+  padding: 20px;
+  cursor: pointer;
+}

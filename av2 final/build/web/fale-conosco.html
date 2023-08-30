@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>repl.it</title>
+      <link href="style.css" rel="stylesheet" type="text/css"/>
+      <link href="form.css" rel="stylesheet"  type="text/css"/>
+	<title> steam</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+  </head>
+  <script leanguage= "javascript"src="_javascript/script.js">
+</script>
+  <body>
+<script src="script.js"></script>
+    <div id="interface">
+
+<header id="cabecalho">
+<hgroup>
+<h1>Dota 2 </h1>
+<h2>Primeiro jogo do gênero moba </h2>
+
+</hgroup>
+<img id="icone"src="https://s2.glbimg.com/lIkgP2db_-7Jxr_szfBPi9oGzfY=/0x0:616x347/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2018/b/p/6KBtpEQsAB4AU3XKddAA/dota-2-1.jpg" width="240px">
+<nav id="menu">
+<h1>Menu Principal</h1>
+
+  <ul>
+    <li onmouseover="mudaFoto('https://www.pinclipart.com/picdir/big/8-86626_house-hd-clipart-house-free-clipart-house-clipart.png')"onmouseout="mudaFoto('https://s2.glbimg.com/lIkgP2db_-7Jxr_szfBPi9oGzfY=/0x0:616x347/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2018/b/p/6KBtpEQsAB4AU3XKddAA/dota-2-1.jpg')"width="240px"><h3><a href="index.html"> Home</a></h3></li>
+    <li onmouseover="mudaFoto('https://i0.wp.com/multarte.com.br/wp-content/uploads/2020/06/photo-frame-4668850_960_720.png?fit=960%2C639&ssl=1')"onmouseout="mudaFoto('https://s2.glbimg.com/lIkgP2db_-7Jxr_szfBPi9oGzfY=/0x0:616x347/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2018/b/p/6KBtpEQsAB4AU3XKddAA/dota-2-1.jpg')"width="240px"><h3><a href="fotos.html">Fotos</a></h3></li>
+    <li onmouseover="mudaFoto('https://1.bp.blogspot.com/-fMpECl20W1Y/XeaNbLMPmdI/AAAAAAAAK60/l4JjUeTX_sguMLjOcUjLhhC-MdsZxIGsACLcBGAsYHQ/s1600/Fale%2BConosco%2B-.png')"onmouseout="mudaFoto('https://s2.glbimg.com/lIkgP2db_-7Jxr_szfBPi9oGzfY=/0x0:616x347/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2018/b/p/6KBtpEQsAB4AU3XKddAA/dota-2-1.jpg')"width="120px"><h3><a href="fale-conosco.html">Fale conosco</a></h3></li>
+  </ul>
+</nav>
+</header>
+
+<form class='demo-form' method="post" id="fcontato" action="formula">>
+
+<fieldset id="Usuario"><legend>Identificação do Usuário</legend>
+    <p><label for="cnome">Nome:</label><input type="text" name="tnome" id="cnome" size="50" maxlength="50" placeholder="Nome Completo"/></p>
+
+    <p><label for="csenha">Senha:</label><input type="password" name="tsenha" id="csenha" size="50" maxlength="8" placeholder="Senha de 8 digitos"/></p>
+
+    <p><label for="cmail">E-mail:</label><input type="email" name="tmail" id="cmail" size="49" maxlength="50" placeholder="E-mail"/></p>
+
+    <fieldset id="gene"><legend>Sexo:</legend>
+        <input type="radio" name="tsex" id="cmas"checked/> <label for="cmas">Masculino</label><br/>
+        <input type="radio" name="tsex" id="cfem"> <label for="cfem">Feminino</label> 
+        </fieldset>
+    <p>Data de Nascimento:<input type="date" name="tda" id="cda" size="50" maxlength="50"/></p>
+    </fieldset>
+
+<fieldset id="endere"><legend>Endereço do Usuário</legend>
+    <p><label for="cru">Endereço:</label><input type="text" name="tru" id="cru" size="50" maxlength="100" placeholder="Rua,Bairro,..."/></p> 
+
+    <p><label for="cnu">Número:</label><input type="number" name="tnu" id="cnu" min="0" max="99999"/></p>
+
+    <p><label for="ces">Estado:</label><select name="tes" id="ces">
+      <optgroup label="Região Suldeste">  
+         <option value="rj">Rio de janeiro</option>
+         <option value="SP">São Paulo</option>
+      </optgroup> 
+      <optgroup label="Região centro-oeste">   
+      <option value="MG"selected>Minas Gerais</option>
+      <option value="M">Mato Grosso</option>
+      </optgroup> 
+      <option>Outros</option>
+    </select></p>
+    <p><label for="cci">Cidade:</label><input type="text" name="tci" id="cci" size="50" maxlength="50" placeholder="Cidade" list="cid"/>
+    <datalist id="cid">
+      <option>Rio de janeiro</option>
+      <option>São Paulo</option>
+    </datalist>
+    </p>
+    </fieldset>
+
+<fieldset><legend>Mensagem do Usuário</legend>
+    <p><label for="cgu">Grau de Urgência: min </label><input type="range" name="tgu" id="cgu" min="0" step="2"/> max</p>
+    <p><label for="cm">Mensagem:</label><textarea name="tm" id="cm" cols="50" rows="5" placeholder="Deixe aqui sua mensagem"></textarea></p>
+    </fieldset>
+    </br></br>
+
+ <button type='submit'>Submit</button>
+ <button type='reset'>Reset</button>
+
+<br>
+        Login Id: <input type = "text" name = "name"/>
+        <br>
+        Password: <input type = "password" name = "password"/>
+        <br>
+        <input type = "submit" value = "Login"/>
+</div>
+</form>
+</html>

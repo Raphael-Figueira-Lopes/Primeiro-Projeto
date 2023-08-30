@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import url('https://hu3br.com/wp-content/uploads/2015/02/dota-2-1-mi-2.jpg');
+  body{
+         background-image: url("https://images8.alphacoders.com/391/thumb-1920-391980.jpg");
+         background-color: green;
+         color: aquamarine;
+      }
+  p{
+    text-align:juxtify;
+    text-indent: 500px;
+    }
+a{
+  color: aqua;
+  text-indent: 50px;
+  text-decoration: none ;
+}
+a hover{
+  text-decoration:underline;
+}
+ header#cabecalho img {
+ position: absolute;
+ left: 580px;
+ top: 140px;
+ }
+
+header#cabecalho{
+  border-bottom: 1px #dddddd solid;
+  height: 200px;
+   background-image: url("https://external-preview.redd.it/hWsnSK5a5cQcVPuC4DTLfpypHmw9kOhX0zhAf4F1mNo.png?auto=webp&s=5b877fd4d10fa45dfe5d44039a1b933ec64efa33" );
+   background-size: 100px;
+   background-repeat: no-repeat;
+    background-position: 0px 90px;
+
+}
+  figure.foto-legenda{
+    position: relative;
+    
+  }
+  figure.foto-legenda img{
+    width: 48%;
+    height: 48%;
+  }
+  figure.foto-legenda figcaption {
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.3);
+    color: white;
+    width: 48%;
+    height:99%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+    opacity: 0;  
+}
+ figure.foto-legenda:hover figcaption {
+    opacity: 1;
+}
+nav#menu{
+  display: block;
+}
+header#cabecalho h1{
+  font-family: 'Ranchers', cursive;
+  font-size: 20pt;
+  color: aqua;
+  text-shadow: 1px 1px 1px black;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+header#cabecalho h2{
+  font-family: Arial ,sans-serif;
+  color: aqua;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+nav#menu ul { 
+    list-style: none;
+    text-transform: uppercase;   
+    position: absolute;
+    top:-40px;
+    left: 400px;
+}
+nav#menu  li{
+  display: inline-block;
+  background-color:light;
+  padding:10px;
+  margin: 1px;
+  transition:  background-color 1s;
+}
+nav#menu li:hover{
+ background-color: rgba(0,0,0,.3);
+}
+nav#menu h1 {
+ display: none;
+}
+nav#menu a {
+  color:aquamarine ;
+  text-decoration: none;
+}
+nav#menu a:hover{
+  color:white;
+}
+div#interface{ 
+  margin: 100px  auto 10px ;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.1);
+  padding: 0px;
+}
+article#noticia-pri h2{
+font-size: 12pt;
+color: aqua;
+background-color:green;
+padding: 5px 0px 5px 0px;
+margin: 0px;
+}
+header#cabecalho-artigo h1{
+font-family: 'Ranchers', cursive;
+  font-size: 30pt;
+  color: aqua;
+}
+header#cabecalho-artigo h4{
+  font-size: 13pt;
+  color: aqua;
+}
+header#cabecalho-artigo h3{
+  font-size: 12pt;
+  color: aqua;
+}
+aside#lateral h2{
+ font-size: 12pt;
+color: aqua;
+background-color:darkgreen;
+padding: 5px 0px 5px 0px;
+margin: 0px;
+}
+aside#lateral {
+  background-color:green;
+  margin:0px ;
+}
